@@ -1,0 +1,48 @@
+<div class="card mat-card" id="first-card">
+    <div id="img-portada">
+        <img [src]="miPortfolio.backimage" alt="img_portada" />
+        <div class="btn-edit">
+            <a href="#" class="btn-portada">
+                <i class="fa fa-pen"></i>
+            </a>
+        </div>
+    </div>
+    <!-- <div id="info"> -->
+        <div id="info-img">
+            <img class="img-perfil" [src]="miPortfolio.image" alt="img_perfil" />
+            <div class="btn-edit">
+                <a href="#" class="btn-right">
+                    <i class="fa fa-pen"></i>
+                </a>
+            </div>
+        </div>
+    <!-- </div> -->    
+        <div id="info-data">
+            <div>
+                <h1>{{miPortfolio.name}}</h1>
+                <div class="" id="info_company">{{miPortfolio.position}}</div>
+                    <div id="info-contact">
+                        <span>{{miPortfolio.ubication}}</span>
+                        <span><a href="#"> - Información de contacto</a></span>
+                    </div>
+                </div>
+            <div>
+                <ul id="info-details">
+                    <li *ngFor="let info of infoHeader">
+                        <a [href]="info.url">
+                            <img [src]="info.img" alt="">
+                            <h2>{{info.name}}</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        <div class="info-actions">
+            <button type="button" class="btn btn-primary">Tengo interés en</button>
+            <button type="button" class="btn btn-light">Añadir Sección</button>
+            <button type="button" class="btn btn-light">Mas</button>
+        </div>
+    
+    
+    
+</div>

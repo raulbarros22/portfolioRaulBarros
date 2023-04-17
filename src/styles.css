@@ -1,0 +1,129 @@
+/* You can add global styles to this file, and also import other style files */
+.mat-card {
+    border-radius: 32px;
+    margin: 10px 10px;
+    /* padding: 10px; */
+    /* border-color: #0a66c2; */
+}
+/*
+.mat-card#first-card {
+    padding: 0;
+}*/
+/*
+#first-card.mat-card {
+    padding: 0;
+}*/
+#info-img {
+    display: flex;
+}
+
+div#img-portada { /*#profile-background*/
+    display: flex;
+    z-index: 1;
+}
+div#img-portada img { /*#profile-background*/
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+    /*max-height: 20em;*/
+    max-height: 25vh;
+}
+
+.img-perfil { /*.profile-image*/
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    margin-left: 25px;
+    z-index: 1;
+    border-style: solid;
+    border-color: white;
+}
+
+div.info-actions {
+    display: flex;
+    margin: 0 15px 15px 15px;
+}
+
+div#info-contact span a {
+    color: #0a66c2;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+
+div#info-company {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+div#info-data {
+    display: flex;
+    justify-content: space-between;
+    /* --margin-top: 10px; */
+    margin: 15px 15px 0 15px;
+}
+
+div#info-data h1 {
+    font-size: 1.8rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+div#info-data ul#info-details {
+    width: 232px;
+    list-style: none;
+    flex-shrink: 0;
+}
+
+div#info-data ul#info-details li a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+
+div#info-data ul#info-details li a h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: center;
+    vertical-align: baseline;
+}
+
+div#info-data ul#info-details li a img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+ul.items-list {
+    list-style: none inside;
+}
+
+ul.items-list li {
+    display: flex;
+    margin: 10px 0;
+}
+
+ul.items-list li div.data-container {
+    flex-grow: 1;
+}
+
+ul.items-list li div.data-container a {
+    display: flex;
+    color: black;
+}
+div#info-img {
+    position: relative;
+}
+.btn-edit{
+    position: absolute;
+    top: calc(1.6rem + 0.4rem);
+    right: calc(1.6rem + 0.4rem);
+}
+div a.btn-portada{
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+

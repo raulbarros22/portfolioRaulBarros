@@ -1,0 +1,36 @@
+{
+    "name": "Raúl Barros",
+    "backimage": "https://media.licdn.com/dms/image/C4E16AQEl2htGijU4xg/profile-displaybackgroundimage-shrink_350_1400/0/1580310109872?e=1686787200&v=beta&t=K86bo7aphD9Oeul3aZzrjXYpGcHJtr83YS55LieQ4Q8",
+    "about": "Desarrollador de software, en búsqueda constante de aplicar (y ampliar) mis conocimientos en diversos proyectos y seguir desarrollándome profesionalmente.",
+    "image": "https://media.licdn.com/dms/image/C4E03AQFm4892xPm07A/profile-displayphoto-shrink_200_200/0/1575648231183?e=1686787200&v=beta&t=cv1xNLJkZkvmVsjeHGGB0b5mjzXJZILsjIvP_ZMDbFU",
+    "position": "Software Developer",
+    "infoHeader": [{
+        "name": "Censys SA",
+        "img": "https://media.licdn.com/dms/image/C4D0BAQHEhLuxZM00YA/company-logo_100_100/0/1593520553164?e=1689206400&v=beta&t=EesKZ-5LdcyvMXGYOQi8fv84TriYuWFKbf3zjfYFrdI",
+        "url": "#"
+    },
+    {
+        "name": "Universidad Tecnológica Nacional",
+        "img": "https://media.licdn.com/dms/image/C4E0BAQGeb4HjTCzsFg/company-logo_100_100/0/1598118566695?e=1689206400&v=beta&t=TWIhPyL_znNKZ3hXj9aKyiwNPs_ztqs9bZDOeY91_7I",
+        "url": "#"
+    }],
+    "ubication": "San Miguel de Tucumán",
+    "education":[{
+        "school": "Instituto CyP Soft",
+        "title": "Tecnico Superior en Sistemas de Informacion",
+        "img": "https://media.licdn.com/dms/image/C4E0BAQFgQ1V_4e4ZdA/company-logo_100_100/0/1593164596737?e=1689811200&v=beta&t=GAl1FSupHBw8c8BgwIqP0TjAlimb-2AowayaUFKQnck",
+        "career":"",
+        "score":"",
+        "start":"2006",
+        "end":"2008"},
+    {
+        "school": "Universidad Nacional de Tucuman",
+        "title": "Ingenieria en Computacion",
+        "img": "https://media.licdn.com/dms/image/C4E0BAQFgQ1V_4e4ZdA/company-logo_100_100/0/1593164596737?e=1689811200&v=beta&t=GAl1FSupHBw8c8BgwIqP0TjAlimb-2AowayaUFKQnck",
+        "career":"",
+        "score":"",
+        "start":"2003",
+        "end":"2006"  
+    }]
+
+}
