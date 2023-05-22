@@ -10,6 +10,8 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './componentes/login/login.component';
+import { HomeComponent } from './componentes/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { HttpClientModule } from '@angular/common/http';
     ExperienciaComponent,
     EducacionComponent,
     AptitudesComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
