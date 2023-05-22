@@ -31,6 +31,15 @@
         "score":"",
         "start":"2003",
         "end":"2006"  
+    }],
+    "projects":[{
+        "title": "GoodBuy E-Commerce",
+        "start":"2019",
+        "end":"2020"},
+    {
+        "title": "Pes Informatica E-Commerce",
+        "start":"2020",
+        "end":"2022"  
     }]
 
 }

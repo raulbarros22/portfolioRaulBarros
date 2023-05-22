@@ -1,38 +1,59 @@
 <div class="card mat-card" id="six-card">
     <div id="info">
-        <div>
-            <h1>Proyectos</h1>
-            <div class="btn-edit">
-                <a href="#" class="btn-right">
-                    <i class="fa fa-more"></i>
-                </a>
-            </div>
-        </div> 
         <div id="info-data">
-            <div>
-                <h1>e-Farmacia</h1>
+                <div>
+                    <h1>Proyectos</h1>
+                </div>
+                
                 <div class="btn-edit">
                     <a href="#" class="btn-right">
                         <i class="fa fa-pen"></i>
                     </a>
                 </div>
-                <div id="info-contact">
-                    <span>Desarrollador de software, en búsqueda constante de aplicar (y ampliar) mis conocimientos en diversos proyectos y seguir desarrollándome profesionalmente</span>
-                </div>
-            </div> 
-        </div>
-        <div id="info-data">
-            <div>
-                <h1>Sistema de Monitoreo</h1>
-                <div class="btn-edit">
-                    <a href="#" class="btn-right">
-                        <i class="fa fa-pen"></i>
-                    </a>
-                </div>
-                <div id="info-contact">
-                    <span>Desarrollador de software, en búsqueda constante de aplicar (y ampliar) mis conocimientos en diversos proyectos y seguir desarrollándome profesionalmente</span>
-                </div>
-            </div> 
-        </div>
+        </div>   
+           
+                <div>
+                    <ul class="items-list">
+                        <li *ngFor="let pro of infoProjects" >
+                            <div class="data-container">
+                                <a href="#">
+                                    <!-- <div class="logo-image-container">
+                                        <img class="logo-image"> -->
+                                        <!-- [src]="edu.img" alt=""> -->
+                                    <!-- </div> -->
+                                    <div class="list-info">
+                                        <div>
+                                            <!-- <h4>{{edu.school}}</h4> -->
+                                            <h4>{{pro.title}}</h4>
+                                            <p><time>{{pro.start}}</time> - <time>{{pro.end}}</time></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <h4>e-Farmacia</h4>
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right">
+                            <i class="fa fa-pen"></i>
+                        </a>
+                    </div>
+                    <div id="info-contact">
+                        <span>Desarrollador de software, en búsqueda constante de aplicar (y ampliar) mis conocimientos en diversos proyectos y seguir desarrollándome profesionalmente</span>
+                    </div> -->
+                
+           
+                <!-- <div>
+                    <h4>Sistema de Monitoreo</h4>
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right">
+                            <i class="fa fa-pen"></i>
+                        </a>
+                    </div>
+                    <div id="info-contact">
+                        <span>Desarrollador de software, en búsqueda constante de aplicar (y ampliar) mis conocimientos en diversos proyectos y seguir desarrollándome profesionalmente</span>
+                    </div>
+                </div>  -->
+                </div> 
     </div>
 </div>
